@@ -1,0 +1,115 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  background-color: #7fdcdd;
+}
+
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.9fr 0.9fr 0.9fr;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#ccfbf1;
+    border: 3px solid #14b8a6;
+    justify-items: center;
+    border-radius: 15px;
+    height: 34vmin;
+    width: 34vmin;
+    margin: 5vmin;
+    }
+.TicTacToe{
+    text-decoration: underline;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #065f5b;
+}
+.title {
+    font-size: 5vmin;
+    color: #065f5b;
+   
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    width: 99%;
+    height: auto;
+        background-color: #99f6e4;
+   border: 2px solid #4DB6AC;
+    border-radius: 6px;
+}
+.box {
+    font-size: 4vmin;
+    color: #065f46;
+     border: 2px solid #4DB6AC;
+    margin: 1px;
+    border-radius: 10px;
+    background-color: #99f6e4;
+      box-shadow: 0 4px 10px rgba(38, 166, 154, 0.35);
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.butt {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 4vmin;
+    color: #ffffff;
+    background-color: #14b8a6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 30vw;
+    transition: background-color 0.3s ease-in-out;
+}   
+.butt:hover{
+    background-color: #3ba79e;
+    box-shadow: 2px 2px 2px #060909 ;
+}
+.tell {
+    font-size: 9vmin;
+    color: #0d9488;
+    display: flex;
+    justify-content: center;
+
+}
+
+.info {
+    display: flex;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#ccfbf1;
+    border: 3px solid #14b8a6;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    height: 34vmin;
+    width: 34vmin;
+    color: #065f46;
+    font-size: 4vmin;
+}
+main{
+    display: flex;
+    height: auto;
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vmin;
+    
+
+}
+.mcc{
+    display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+height: 70vmin;
+width: 99%;}
