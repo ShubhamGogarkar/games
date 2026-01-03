@@ -38,6 +38,19 @@ function showComputer(choice) {
 }
 
 
+function getRandomColor() {
+    let val1= Math.floor(Math.random()*256);
+    let val2 = Math.floor(Math.random()*256);
+let val3 = Math.floor(Math.random()*255);
+return `rgb(${val1}, ${val2}, ${val3})`;
+}
+setInterval(()=>{document.querySelector("body").style.backgroundColor=getRandomColor()},1000);
+setInterval(()=>{document.querySelector("nav").style.backgroundColor=getRandomColor()},1000);
+setInterval(()=>{document.querySelector(".choiceandscore").style.backgroundColor=getRandomColor()},1000);
+setInterval(()=>{document.querySelector(".message").style.backgroundColor=getRandomColor()},1000);
+
+
+
 
 const randomChoice = () => {
     const compchoices = ["rock", "paper", "scissors"];
